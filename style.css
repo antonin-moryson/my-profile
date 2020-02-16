@@ -1,0 +1,90 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	background: #F1F1F1;
+	font-size: 16.5px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+a:hover {
+	color: grey;
+}
+h2{
+	font-size: 30px;
+}
+ul {
+	padding-left:0px;
+}
+
+/*designing the classes*/
+.container {
+  width: 800px;
+  margin: 40px auto;
+  shape-rendering: crispEdges;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.bio {
+	margin-bottom: 35px;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  	background: white;
+ 	padding: 50px;
+  	border-radius: 10px;
+  	border: 1px solid lightgrey;
+ 	margin-top: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	margin: 20px 0px;
+	text-align: center;
+}
+.btn-grey {
+	background-color: #F1F1F1;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-grey:hover {
+	background-color: black;
+	color: white; 
+}
+
+.presentation {
+	 list-style: none;
+	padding-left: 0px;
+}
+/*adjusting the IDs*/
+#list-inline li {
+	display: inline;
+	font-size: 55px;
+	padding-right: 30px;
+	padding-left:0px;
+
+}
+#mail {
+	text-align: center;
+	background: white;
+	width: 250px;
+	margin-top: 20px;
+}
+/* Adjusting th web page to every screen size */
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+ }
